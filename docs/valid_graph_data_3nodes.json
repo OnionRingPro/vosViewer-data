@@ -1,0 +1,51 @@
+{
+  "network": {
+    "items": [
+      {
+        "id": 1,
+        "label": "AI",
+        "cluster": 1,
+        "x": 0.1,
+        "y": 0.2,
+        "weights": {
+          "Documents": 10
+        },
+        "scores": {}
+      },
+      {
+        "id": 2,
+        "label": "Machine Learning",
+        "cluster": 1,
+        "x": 0.4,
+        "y": 0.5,
+        "weights": {
+          "Documents": 8
+        },
+        "scores": {}
+      },
+      {
+        "id": 3,
+        "label": "Deep Learning",
+        "cluster": 2,
+        "x": -0.3,
+        "y": -0.4,
+        "weights": {
+          "Documents": 6
+        },
+        "scores": {}
+      }
+    ],
+    "links": [
+      {
+        "source_id": 1,
+        "target_id": 2,
+        "strength": 0.9
+      },
+      {
+        "source_id": 2,
+        "target_id": 3,
+        "strength": 0.7
+      }
+    ]
+  }
+}
